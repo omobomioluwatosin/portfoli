@@ -1,6 +1,4 @@
 import React from 'react';
-import './aos.css';
-
 import './bootstrap.min.css';
 import './App.css';
 
@@ -18,6 +16,7 @@ function App() {
   </div>
   <div className="site-mobile-menu-body"></div>
 </div>
+<header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
 
   <div className="container-fluid">
     <div className="row align-items-center justify-content-center">
@@ -52,7 +51,7 @@ function App() {
     </div>
   </div>
   
-
+</header>
 
 
 <div className="site-blocks-cover overlay bg-light" id="home-section">
@@ -141,7 +140,7 @@ function App() {
       </div>
       <div className="col-lg-4 order-1 order-lg-2 mb-4 mb-lg-0">
         <div className="bg-light pt-5">
-        <img src="images/face.png"s alt="Image" />
+        <img src="../images/face.png" alt="Image" />
        
 
         </div>
@@ -217,34 +216,29 @@ function App() {
     <form action="#" className="form">
       <div className="row mb-4">
         <div className="form-group col-6">
-          <input type="text" className="form-control" placeholder="First name"/>
+          <input type="text" className="form-control" placeholder="First name" required/>
         </div>
         <div className="form-group col-6">
-          <input type="text" className="form-control" placeholder="Last name"/>
+          <input type="text" className="form-control" placeholder="Last name" required required/>
         </div>
       </div>
 
       <div className="row mb-4">
         <div className="form-group col-12">
-          <input type="email" className="form-control" placeholder="Email address"/>
+          <input type="email" className="form-control" placeholder="Email address" required/>
         </div>
       </div>
 
-      <div className="row mb-4">
-        <div className="form-group col-12">
-          <input type="text" className="form-control" placeholder="Subject of the message"/>
-        </div>
-      </div>
 
       <div className="row mb-4">
         <div className="form-group col-12">
-          <textarea name="" id="" cols="30" rows="10" className="form-control" placeholder="Type your message here.."></textarea>
+          <textarea name="" id="" cols="30" rows="10" className="form-control" placeholder="Type your message here.." required></textarea>
         </div>
       </div>
 
       <div className="row">
         <div className="col-md-6">
-          <input type="submit" className="btn btn-primary" value="Send Message"/>
+          <input type="submit" className="btn btn-primary" value="Send Message" />
         </div>
       </div>
       
@@ -254,39 +248,9 @@ function App() {
 
 <footer className="site-section bg-light footer">
   <div className="container">
-    <div className="row mb-5">
-      <div className="col-md-3">
-        <h3 className="footer-title">Me Address</h3>
-        <p><span className="d-inline-block d-md-block">203 Fake St. Mountain View,</span> San Francisco, California, USA</p>
-      </div>
-      <div className="col-md-5 mx-auto">
-        <div className="row">
-          <div className="col-lg-4">
-            <h3 className="footer-title">Services</h3>
-            <ul className="list-unstyled">
-              <li><a href="#">Web App</a></li>
-              <li><a href="#">Graphic</a></li>
-              <li><a href="#">Branding</a></li>
-            </ul>
-          </div>
-          <div className="col-lg-4">
-            <h3 className="footer-title">Resources</h3>
-            <ul className="list-unstyled">
-              <li><a href="#">Web App</a></li>
-              <li><a href="#">Graphic</a></li>
-              <li><a href="#">Branding</a></li>
-            </ul>
-          </div>
-          <div className="col-lg-4">
-            <h3 className="footer-title">Links</h3>
-            <ul className="list-unstyled">
-              <li><a href="#">Web App</a></li>
-              <li><a href="#">Graphic</a></li>
-              <li><a href="#">Branding</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
+
+     
+      
       <div className="col-md-3">
         <h3 className="footer-title">Follow Me</h3>
         <a href="#" className="social-circle"><span className="icon-twitter"></span></a>
@@ -297,14 +261,8 @@ function App() {
       </div>
     </div>
 
-    <div className="row">
-      <div className="col-12 text-center">
-      <p>
 
-        </p>
-        </div>
-    </div>
-  </div>
+ 
 </footer>
 
 </div>

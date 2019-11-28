@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {  faDesktop, faBusinessTime, faLayerGroup, faBorderStyle } from '@fortawesome/free-solid-svg-icons'
 import './bootstrap.min.css';
 import './App.css';
 
@@ -90,7 +92,8 @@ function App() {
       
       <div className="col-md-6 mb-4">
         <div className="service d-flex h-100">
-          <div className="service-number mr-4"><span className="icon-style"></span></div>
+          <div className="service-number mr-4"><span className="icon-style"><FontAwesomeIcon icon={faBorderStyle} />
+</span></div>
           <div className="service-about">
             <h3>UI/UX Designer</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis ipsum error eligendi molestiae eaque quas, ducimus sequi excepturi?</p>
@@ -100,7 +103,7 @@ function App() {
 
       <div className="col-md-6 mb-4">
         <div className="service d-flex h-100">
-          <div className="service-number mr-4"><span className="icon-business_center"></span></div>
+          <div className="service-number mr-4"><span className="icon-business_center"><FontAwesomeIcon icon={faBusinessTime} /></span></div>
           <div className="service-about">
             <h3>Web Development</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis ipsum error eligendi molestiae eaque quas, ducimus sequi excepturi?</p>
@@ -110,7 +113,7 @@ function App() {
 
       <div className="col-md-6 mb-4">
         <div className="service d-flex h-100">
-          <div className="service-number mr-4"><span className="icon-desktop_windows"></span></div>
+          <div className="service-number mr-4"><span className="icon-desktop_windows"><FontAwesomeIcon icon={faDesktop} /></span></div>
           <div className="service-about">
             <h3>Brand &amp; Logo Design</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis ipsum error eligendi molestiae eaque quas, ducimus sequi excepturi?</p>
@@ -120,7 +123,7 @@ function App() {
 
       <div className="col-md-6 mb-4">
         <div className="service d-flex h-100">
-          <div className="service-number mr-4"><span className="icon-layers"></span></div>
+          <div className="service-number mr-4"><span className="icon-layers"><FontAwesomeIcon icon={faLayerGroup} /></span></div>
           <div className="service-about">
             <h3>Web Design</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis ipsum error eligendi molestiae eaque quas, ducimus sequi excepturi?</p>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {  faDesktop, faBusinessTime, faLayerGroup, faBorderStyle } from '@fortawesome/free-solid-svg-icons'
+import {  faDesktop, faBusinessTime, faLayerGroup, faBorderStyle, faSearch} from '@fortawesome/free-solid-svg-icons';
+import { faFacebook, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import './bootstrap.min.css';
 import './App.css';
 
@@ -77,11 +78,7 @@ function App() {
 
   <img src="images/face.png" alt="Image" className="img-face" data-aos="fade"/>
 
-  
 </div>  
-
-
-
 
 <div className="site-section" id="services-section">
   <div className="container">
@@ -143,7 +140,7 @@ function App() {
       </div>
       <div className="col-lg-4 order-1 order-lg-2 mb-4 mb-lg-0">
         <div className="bg-light pt-5">
-        <img src="../images/face.png" alt="Image" />
+        <img src="/images/somebo.jpg" alt="Image" />
        
 
         </div>
@@ -179,20 +176,20 @@ function App() {
     <div id="posts" className="row no-gutter">
       <div className="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
         <a href="images/post_2.jpg" className="item-wrap fancybox">
-          <span className="icon-search2"></span>
-          <img className="img-fluid" src="images/post_2.jpg"/>
+          <span className="icon-search2"><FontAwesomeIcon icon={faSearch}  size={'lg'}/></span>
+          <img className="img-fluid" src="/images/somebo.jpg"/>
         </a>
       </div>
       <div className="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
         <a href="images/post_3.jpg" className="item-wrap fancybox">
-          <span className="icon-search2"></span>
-          <img className="img-fluid" src="images/post_3.jpg"/>
+          <span className="icon-search2"><FontAwesomeIcon icon={faSearch}  size={'lg'}/></span>
+          <img className="img-fluid" src="/images/post_3.jpg"/>
         </a>
       </div>
 
       <div className="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
         <a href="images/post_4.jpg" className="item-wrap fancybox">
-          <span className="icon-search2"></span>
+          <span className="icon-search2"><FontAwesomeIcon icon={faSearch}  size={'lg'}/></span>
           <img className="img-fluid" src="images/post_4.jpg"/>
         </a>
       </div>
@@ -256,11 +253,11 @@ function App() {
       
       <div className="col-md-3">
         <h3 className="footer-title">Follow Me</h3>
-        <a href="#" className="social-circle"><span className="icon-twitter"></span></a>
-        <a href="#" className="social-circle"><span className="icon-facebook"></span></a>
-        <a href="#" className="social-circle"><span className="icon-instagram"></span></a>
-        <a href="#" className="social-circle"><span className="icon-dribbble"></span></a>
-        <a href="#" className="social-circle"><span className="icon-linkedin"></span></a>
+        <a href="https://twitter.com/omobomi oluwatosin/" target="_blank" className="social-circle"><span className="icon-twitter"><FontAwesomeIcon icon={faTwitter}  size={'lg'}/></span></a>
+        <a href="https://facebook.com/omobomi oluwatosin/" target="_blank" className="social-circle"><span className="icon-facebook"><FontAwesomeIcon icon={faFacebook}size={'lg'} /></span></a>
+        <a href="https://instagram.com/somebody-i-love1/" target="_blank" className="social-circle"><span className="icon-instagram"><FontAwesomeIcon icon={faInstagram} size={'lg'}/></span></a>
+        <a href="https://linkedin.com/Omobomi oluwatosin/" target="_blank" className="social-circle"><span className="icon-linkedin"><FontAwesomeIcon icon={faLinkedin}size={'lg'} /></span></a>
+       
       </div>
     </div>
 

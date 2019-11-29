@@ -2,6 +2,13 @@
 html {
   overflow-x: hidden; }
 
+.col-md-3{
+  font-size: 150%;
+}
+.social-circle{
+  padding: 5%;
+  
+}
 body {
   line-height: 1.7;
   color: #666666;

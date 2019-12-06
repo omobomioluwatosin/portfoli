@@ -607,7 +607,10 @@ body:after {
     @media (max-width: 991.98px) {
       .site-blocks-cover .img-face {
         right: -25%; } }
-
+.face{
+  background-image: url(../src/images/somebo.jpg);
+  background-size: 70%;
+}
 .section-title {
   position: relative;
   padding-bottom: 20px; }

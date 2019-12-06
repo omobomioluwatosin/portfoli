@@ -19,7 +19,7 @@ function App() {
   </div>
   <div className="site-mobile-menu-body"></div>
 </div>
-<header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+<header className="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
 
   <div className="container-fluid">
     <div className="row align-items-center justify-content-center">
@@ -37,6 +37,8 @@ function App() {
 
    
       <div className="text-left">
+
+       
 
         <nav className="site-navigation position-relative" role="navigation">
           <ul className="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
@@ -76,7 +78,7 @@ function App() {
     </div>
   </div>
 
-  <img src="images/face.png" alt="Image" className="img-face" data-aos="fade"/>
+  <img src="images/sombe.jpg" alt="Image" className="img-face" data-aos="fade"/>
 
 </div>  
 
@@ -183,7 +185,7 @@ function App() {
       <div className="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
         <a href="images/post_3.jpg" className="item-wrap fancybox">
           <span className="icon-search2"><FontAwesomeIcon icon={faSearch}  size={'lg'}/></span>
-          <img className="img-fluid" src="/images/post_3.jpg"/>
+          <img className="img-fluid" src="../images/post_3.jpg"/>
         </a>
       </div>
 
@@ -193,19 +195,10 @@ function App() {
           <img className="img-fluid" src="images/post_4.jpg"/>
         </a>
       </div>
-
-
-
-      
+  
     </div>
   </div>
-
 </section>
-
-
-
-
-
 <section className="site-section" id="contact-section">
   <div className="container">
     <div className="row">

@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faDesktop, faBusinessTime, faLayerGroup, faBorderStyle, faSearch} from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import './bootstrap.min.css';
+import ContactForm from './ContactForm'
 import './App.css';
 
 function App() {
@@ -59,9 +60,10 @@ function App() {
 </header>
 
 
-<div className="site-blocks-cover overlay bg-light" id="home-section">
+<div  className="site-blocks-cover overlay bg-light" id="home-section" >
 
   <div className="container">
+    
     <div className="row justify-content-center">
 
       <div className="col-md-12 mt-lg-5 text-left align-self-center text-intro">
@@ -78,7 +80,7 @@ function App() {
     </div>
   </div>
 
-  <img src="images/sombe.jpg" alt="Image" className="img-face" data-aos="fade"/>
+  <div className="img-face"></div>
 
 </div>  
 
@@ -91,11 +93,11 @@ function App() {
       
       <div className="col-md-6 mb-4">
         <div className="service d-flex h-100">
-          <div className="service-number mr-4"><span className="icon-style"><FontAwesomeIcon icon={faBorderStyle} />
+          <div className="service-number mr-4"><span className="icon-style"><FontAwesomeIcon icon={faDesktop} />
 </span></div>
           <div className="service-about">
             <h3>UI/UX Designer</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis ipsum error eligendi molestiae eaque quas, ducimus sequi excepturi?</p>
+            <p>Let me take you into a deeper experience, make a moment a lasting conveyable memory. Let us help build your tribe.</p>
           </div>
         </div>
       </div>
@@ -105,27 +107,23 @@ function App() {
           <div className="service-number mr-4"><span className="icon-business_center"><FontAwesomeIcon icon={faBusinessTime} /></span></div>
           <div className="service-about">
             <h3>Web Development</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis ipsum error eligendi molestiae eaque quas, ducimus sequi excepturi?</p>
+            <p>
+The true ENTREPRENEUR is a risk taker, not an excuse maker.</p>
           </div>
         </div>
       </div>
 
-      <div className="col-md-6 mb-4">
-        <div className="service d-flex h-100">
-          <div className="service-number mr-4"><span className="icon-desktop_windows"><FontAwesomeIcon icon={faDesktop} /></span></div>
-          <div className="service-about">
-            <h3>Brand &amp; Logo Design</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis ipsum error eligendi molestiae eaque quas, ducimus sequi excepturi?</p>
-          </div>
-        </div>
-      </div>
+  
 
       <div className="col-md-6 mb-4">
         <div className="service d-flex h-100">
           <div className="service-number mr-4"><span className="icon-layers"><FontAwesomeIcon icon={faLayerGroup} /></span></div>
           <div className="service-about">
             <h3>Web Design</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis ipsum error eligendi molestiae eaque quas, ducimus sequi excepturi?</p>
+            <p>
+Make things as simple as possible, but not simpler.
+
+</p>
           </div>
         </div>
       </div>
@@ -141,20 +139,29 @@ function App() {
         <h2 className="section-title">About Me</h2>
       </div>
       <div className="col-lg-4 order-1 order-lg-2 mb-4 mb-lg-0">
-        <div className="bg-light pt-5">
-        <img src="/images/somebo.jpg" alt="Image" />
+        <div className="some">
        
-
         </div>
       </div>
       <div className="col-lg-4 order-2 order-lg-1">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis ipsum error eligendi molestiae eaque quas, ducimus sequi excepturi?</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis ipsum error eligendi molestiae eaque quas, ducimus sequi excepturi?</p>
+        <p>My name is Omobomi oluwatosin, i'm 20 years old front End
+Developer based in Nigeria (Akure). i describe myself as a
+developer who love coding,open source, and web platform.
+currently searching for a internship as a Font End Engineer. I
+had a great tutor/mentor, who taught so much about code
+organisation, which i'm still very passionate about today (can't
+thank you enough Akintunde!􀆣.</p>
       </div>
       <div className="col-lg-4 order-3 order-lg-3">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis ipsum error eligendi molestiae eaque quas, ducimus sequi excepturi?</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aperiam qui maiores, ipsa quibusdam distinctio! Expedita ipsum ex porro obcaecati.</p>
-        <p><a href="#contact-section" className="btn smoothscroll btn-primary">Contact Me</a></p>
+     <p>As a junior i was thrown in at
+the deep end, and for me it was the best way to learn.
+other people can sometimes struggle to know which tasks are
+frontend and which are backend. sometimes i feel as thought
+people don't entirely realize the amount of work that involved
+in frontend development.we're in a sort of hybrid role that
+works between designers and backend developers to make
+sure your website looks awesome and performs well.</p>
+        <a href="#contact-section" className="btn smoothscroll btn-primary">Contact Me</a>
       </div>
       
     </div>
@@ -177,22 +184,22 @@ function App() {
     
     <div id="posts" className="row no-gutter">
       <div className="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-        <a href="images/post_2.jpg" className="item-wrap fancybox">
+        <a href="http://twitterfrontpage.herokuapp.com/" className="item-wrap fancybox">
           <span className="icon-search2"><FontAwesomeIcon icon={faSearch}  size={'lg'}/></span>
-          <img className="img-fluid" src="/images/somebo.jpg"/>
+          <div className="img-fluid"></div>
         </a>
       </div>
       <div className="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-        <a href="images/post_3.jpg" className="item-wrap fancybox">
+        <a href="http://beautybytaye.herokuapp.com/"  className="item-wrap fancybox">
           <span className="icon-search2"><FontAwesomeIcon icon={faSearch}  size={'lg'}/></span>
-          <img className="img-fluid" src="../images/post_3.jpg"/>
+          <div className="img-fluid1"></div>
         </a>
       </div>
 
       <div className="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
         <a href="images/post_4.jpg" className="item-wrap fancybox">
           <span className="icon-search2"><FontAwesomeIcon icon={faSearch}  size={'lg'}/></span>
-          <img className="img-fluid" src="images/post_4.jpg"/>
+          <div className="img-fluid2"></div>
         </a>
       </div>
   
@@ -208,33 +215,9 @@ function App() {
     </div>
     <form action="#" className="form">
       <div className="row mb-4">
-        <div className="form-group col-6">
-          <input type="text" className="form-control" placeholder="First name" required/>
-        </div>
-        <div className="form-group col-6">
-          <input type="text" className="form-control" placeholder="Last name" required required/>
-        </div>
-      </div>
 
-      <div className="row mb-4">
-        <div className="form-group col-12">
-          <input type="email" className="form-control" placeholder="Email address" required/>
-        </div>
-      </div>
-
-
-      <div className="row mb-4">
-        <div className="form-group col-12">
-          <textarea name="" id="" cols="30" rows="10" className="form-control" placeholder="Type your message here.." required></textarea>
-        </div>
-      </div>
-
-      <div className="row">
-        <div className="col-md-6">
-          <input type="submit" className="btn btn-primary" value="Send Message" />
-        </div>
-      </div>
-      
+      <ContactForm/> 
+      </div> 
     </form>
   </div>
 </section>
@@ -254,7 +237,7 @@ function App() {
       </div>
     </div>
 
-
+<div className='copy'>Copyright ©2020 All rights reserved |sombebodyilove</div>
  
 </footer>
 

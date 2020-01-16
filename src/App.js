@@ -28,9 +28,9 @@ function App() {
       <div className="">
         <nav className="site-navigation position-relative text-right" role="navigation">
           <ul className="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-            <li><a href="#home-section" className="nav-link">Home</a></li>
-            <li><a href="#services-section" className="nav-link">Services</a></li>
-            <li><a href="#about-section" className="nav-link">About</a></li>
+            <li><a href="#home-section" className="nav-link"><h3>Home</h3></a></li>
+            <li><a href="#services-section" className="nav-link"><h3>Services</h3></a></li>
+            <li><a href="#about-section" className="nav-link"><h3>About</h3></a></li>
             
           </ul>
         </nav>
@@ -43,9 +43,9 @@ function App() {
 
         <nav className="site-navigation position-relative" role="navigation">
           <ul className="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-            <li><a href="#portfolio-section" className="nav-link">Portfolio</a></li>
+            <li><a href="#portfolio-section" className="nav-link"><h3>Portfolio</h3></a></li>
     
-            <li><a href="#contact-section" className="nav-link">Contact</a></li>
+            <li><a href="#contact-section" className="nav-link"><h3>Contact</h3></a></li>
           </ul>
         </nav>
 
@@ -70,7 +70,7 @@ function App() {
         <div className="row">
           <div className="col-lg-6">
             <h1 className="text-black">I'm Omobomi Oluwatosin</h1>
-            <p className="lead">I'm Web Developer Based on Nigeria.</p>
+            <p className="lead">I'm Web Developer Based in Nigeria.</p>
             <p><a href="#portfolio-section" className="btn smoothscroll btn-primary">Portfolio</a></p>
 
           </div>
@@ -96,7 +96,7 @@ function App() {
           <div className="service-number mr-4"><span className="icon-style"><FontAwesomeIcon icon={faDesktop} />
 </span></div>
           <div className="service-about">
-            <h3>UI/UX Designer</h3>
+            <h3>frontend developer</h3>
             <p>Let me take you into a deeper experience, make a moment a lasting conveyable memory. Let us help build your tribe.</p>
           </div>
         </div>
@@ -193,13 +193,6 @@ sure your website looks awesome and performs well.</p>
         <a href="http://beautybytaye.herokuapp.com/"  className="item-wrap fancybox">
           <span className="icon-search2"><FontAwesomeIcon icon={faSearch}  size={'lg'}/></span>
           <div className="img-fluid1"></div>
-        </a>
-      </div>
-
-      <div className="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-        <a href="images/post_4.jpg" className="item-wrap fancybox">
-          <span className="icon-search2"><FontAwesomeIcon icon={faSearch}  size={'lg'}/></span>
-          <div className="img-fluid2"></div>
         </a>
       </div>
   

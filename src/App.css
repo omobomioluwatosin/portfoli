@@ -281,7 +281,7 @@ body:after {
   width: 100%;
   border-bottom: rgba(255, 255, 255, 0.7); }
   .site-navbar:hover {
-    background: #fff; }
+    background: rgb(14, 13, 13); }
   .site-navbar .site-logo {
     font-size: 1.5rem; }
     .site-navbar .site-logo a {
@@ -300,12 +300,15 @@ body:after {
       padding: 5px 20px; }
     .site-navbar .site-navigation .site-menu > li {
       display: inline-block; }
-      .site-navbar .site-navigation .site-menu > li > a {
+      .site-navbar .site-navigation .site-menu > li > a > h3 {
         padding: 5px 20px;
-        color: #000;
+        color: whitesmoke;
         display: inline-block;
         text-decoration: none !important; }
-        .site-navbar .site-navigation .site-menu > li > a:hover {
+        .h3:hover{
+          color: #207561;  
+        }
+        .site-navbar .site-navigation .site-menu > li >  a:hover {
           color: #207561; }
     .site-navbar .site-navigation .site-menu .has-children {
       position: relative; }
@@ -360,7 +363,7 @@ body:after {
           -webkit-transition: 0s all;
           -o-transition: 0s all;
           transition: 0s all;
-          color: #000; }
+          color: rgb(206, 40, 40); }
         .site-navbar .site-navigation .site-menu .has-children .dropdown .active {
           color: #207561 !important; }
         .site-navbar .site-navigation .site-menu .has-children .dropdown > li {
@@ -574,7 +577,7 @@ body:after {
   .site-blocks-cover .lead {
     font-family: "Arbutus Slab", serif;
     font-size: 1.3rem;
-    color: #1a1a1a; }
+    color: rgba(245, 245, 245, 0.739); }
   .site-blocks-cover.overlay {
     position: relative; }
     .site-blocks-cover.overlay:before {
@@ -906,7 +909,7 @@ body:after {
 }
 
 .site-blocks-cover{
-background-image: url('../src/images/fron.jpg');
+background-image: url('../src/images/dee.jpeg');
 background-size: cover; 
 
 }
